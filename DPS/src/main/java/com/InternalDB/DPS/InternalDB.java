@@ -8,7 +8,7 @@ import java.sql.Time;
 
 @Entity
 @Data
-@Table(name ="Datastore")
+@Table(name ="InternalDB")
 public class InternalDB {
     @Id
     @Column(name="ID")
